@@ -1,6 +1,6 @@
 import React from 'react'
 import Firstdiv from './Firstdiv'
-import Seconddiv from './Seconddiv'
+import Projects from './Projects'
 import Skills from './Skills'
 import Contact from './Contact'
 import About from './aboutDiv'
@@ -12,7 +12,7 @@ const Homepage = () => {
 <About/>
 
 
-<Seconddiv/>
+<Projects/>
 <Skills/>
 
 <Contact/>

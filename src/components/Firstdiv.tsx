@@ -55,7 +55,7 @@ function Firstdiv() {
          
         </div>
 
-<img src={require('../images/web-development.png')} className='heroImage' alt="" />
+<img src={require('../images/programming.png')} className='heroImage' alt="" />
 </div>
     )
 }

@@ -11,9 +11,9 @@ export default function Header() {
     <nav id='nav'>
         <h1>Jibola</h1>
         <div className='textnav'>
-          <p>Projects</p>
+        <a href='#projects'><p>Projects</p></a>
           <p>About me</p>
-          <a href="#contact"><p>Contact</p></a>
+          <a href="#contact"><p style={{outline:'1px solid #a6e1fa',padding:'3px',borderRadius:'5px',marginTop:'13px',width:'70px',textAlign:'center'}}>Contact</p></a>
         
         </div>
 {toggleNav?<CloseIcon onClick={()=>{setToggleNav(prev=>!prev)}} id='toggleNav'/>: 
@@ -21,9 +21,9 @@ export default function Header() {
     </nav>
   
     <div className={toggleNav?'mobileNav':'mobileNav-off'}>
-         <p>Projects</p>
+          <a href='#projects'><p>Projects</p></a>
           <p>About me</p>
-          <a href="#contact"> <p>Contact</p></a>
+          <a href="#contact"> <p style={{outline:'1px solid #a6e1fa',padding:'3px'}}>Contact</p></a>
     
         </div>
     </>
